@@ -13,8 +13,8 @@ module.exports = {
     // Find and remove NextJS css rules.
     // for next@12, try `config.module.rules[2]...`
     // console.log(JSON.stringify(config.module.rules[3].oneOf))
-    if (config.module.rules[6].oneOf) {
-      config.module.rules[6].oneOf.forEach((one) => {
+    if (config.module.rules[7].oneOf) {
+      config.module.rules[7].oneOf.forEach((one) => {
         if (!`${one.issuer ? one.issuer.and : "undefined"}`.includes("_app"))
           return;
         one.issuer.and = [path.resolve(__dirname)];
