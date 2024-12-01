@@ -1,0 +1,1 @@
+export {Data as default} from "@app/modules/data"

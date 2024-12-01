@@ -1,0 +1,5 @@
+.wrap-content{
+    height: calc(100vh - $navbar-height - $padding-content);
+    overflow: auto;
+    padding: $padding-content;
+}

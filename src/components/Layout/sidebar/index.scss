@@ -1,0 +1,14 @@
+.sidebar{
+    width: $sidebar-width;
+    .ant-menu{
+        font-weight: 500;
+        background-color: #94A3B8;
+        border-right: none;
+        color: #fff;
+        font-size: 16px;
+        .ant-menu-item{
+            gap: 10px;
+            align-items: center;
+        }
+    }
+}

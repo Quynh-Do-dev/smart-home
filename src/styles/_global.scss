@@ -1,0 +1,34 @@
+//font
+$font-family: "Roboto", cursive !default;
+
+// config size
+$sidebar-width: 260px;
+$navbar-height: 60px;
+$padding-content: 12px;
+
+// config color
+//white
+$white: #fff;
+//white Lilac
+$white-lilac: #f6f6f9;
+//gray
+$gray-100: #efefef;
+$gray-200: #dcdcdc;
+$gray-300: #bdbdbd;
+$gray-400: #989898;
+$gray-500: #7c7c7c;
+$gray-600: #656565;
+$gray-700: #525252;
+//red
+$red-50: #fef2f2;
+$red-100: #fee2e2;
+$red-200: #fecaca;
+$red-300: #fca5a5;
+$red-400: #f77272;
+$red-500: #ee4444;
+$red-600: #db2727;
+$red-700: #b81d1d;
+
+//box shadow
+$box-shadow-1: 0px 17px 68px 0 $gray-100;
+$box-shadow-2: 0 2rem 3rem rgba(132, 139, 200, 0.18);
